@@ -34,5 +34,47 @@
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
   ```
+  
+  ```js
+    <dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.7.Final</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>5.6.7.Final</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version>
+		</dependency>
+
+		<!-- oracle -->
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>21.1.0.0</version>
+		</dependency>
+		<!-- Fim oracle -->
+
+		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
+		<!-- <dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>9.0.2.0.0</version>
+		</dependency> -->
+
+	</dependencies>
+ ```
 
 

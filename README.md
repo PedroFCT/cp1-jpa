@@ -113,3 +113,6 @@
 ```
 ![image](https://user-images.githubusercontent.com/101119026/225852662-42205cfd-38ba-44f2-9191-50ffa6172483.png)
 
+dominio/Pessoa = implements Serializable / private static final long serialVersionUID = 1l; / atributos / gere construtores / getters and setters / override toString/ não esquecer das anotations: @Entity acima da classe
+
+aplicacao/Programa = métedo main / estancie objetos / chame o EntityManagerFactory emf = Persistence.createEntittyManagerFactory(**nome do persistence unit name**); /  chame o EntityManager em = emf.createEntityManager(); para persistir o obj >> em.persist(obj1); 

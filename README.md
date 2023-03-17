@@ -28,10 +28,11 @@
 
 
 
-
-<properties>
-  <maven.compiler.source>11</maven.compiler.source>
-  <maven.compiler.target>11</maven.compiler.target>
-</properties>
+```js
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+  ```
 
 
